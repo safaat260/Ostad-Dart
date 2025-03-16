@@ -1,5 +1,5 @@
 import 'dart:io';
-//singele case
+//single case
 main(){
   print("Enter day: ");
   String ? day = stdin.readLineSync();
