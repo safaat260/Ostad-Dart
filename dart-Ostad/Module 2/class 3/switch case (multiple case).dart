@@ -29,7 +29,7 @@ main() {
       break;
 
     default:
-      print("Invaild Month!");
+      print("Invalid Month!");
   }
 
 }
