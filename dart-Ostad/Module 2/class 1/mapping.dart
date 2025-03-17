@@ -26,7 +26,7 @@ main(){
   person["Address"] = "Dhaka";//new single key and value add
   print(person);
 
-  print(person["Name"]);//key show
+  print(person["Name"]);//value show of key
 
   person["Age"] = "30";//update value
   print(person);
