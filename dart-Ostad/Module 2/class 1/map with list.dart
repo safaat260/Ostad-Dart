@@ -37,7 +37,7 @@ main() {
   print(newfriendddata.keys);//gives all keys
   print(newfriendddata.values);//gives all values
 
-  print("Mapping length After: ${newfriendddata.length}");//mapping length after remove
+  print("Mapping length After: ${newfriendddata.length}");//mapping length after removee
 
 
   // making map to list
