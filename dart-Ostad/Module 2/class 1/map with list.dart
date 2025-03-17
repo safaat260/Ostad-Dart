@@ -38,5 +38,13 @@ main() {
   print(newfriendddata.values);//gives all values
 
   print("Mapping length After: ${newfriendddata.length}");//mapping length after remove
-  
+
+
+  // making map to list
+  var keylist = newfriendddata.keys.toList();
+  var valuelist = newfriendddata.values.toList();
+
+  print("\nkey list are:\n$keylist");
+  print("value list are:\n$valuelist");
+
 }

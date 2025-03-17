@@ -42,5 +42,11 @@ main(){
 
   print("Map length:${person.length}");//key/value total variables show
 
+  // making map to list
+  var keylist = person.keys.toList();
+  var valuelist = person.values.toList();
+
+  print("\nkey list are:\n$keylist");
+  print("value list are:\n$valuelist");
 
 }
