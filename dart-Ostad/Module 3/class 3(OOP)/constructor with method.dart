@@ -4,18 +4,22 @@ class Human{
     2.when we use it in object it automatically calls the method of class
     3.many method can be used in main method
    */
+  String name = "Fahim";
+  int ? age;
+
   Human(){
     print("main method is called");
-    method1();
-    method2();
+    method1(name);//value pass inside method
+    method2(22);//stored value inside method
   }
 
-  method1(){
-    print("method_1 is called");
+  //datatype & variable to store something in method
+  method1(String name){
+    print("method_1 & $name is called");
   }
 
-  method2(){
-    print("method_2 is called");
+  method2(int age){
+    print("method_2 & $age is called");
   }
 
 }

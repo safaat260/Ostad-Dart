@@ -22,7 +22,7 @@ main(){
   print(chatro.name);//object .(dot) parameter print
   print(chatro.age);
   print(chatro.cgpa);
-  chatro.studying();//method called
+  chatro.studying(name);//method called
 
   //with class part 2
   teacher shikokh = teacher();//object
@@ -48,7 +48,7 @@ class student{// undefined parameter value assigned in outside print
   double ? cgpa;
 
   //object without datatype
-  studying(){
+  studying(String name){
     print("$name is studying right now");
   }
 }
