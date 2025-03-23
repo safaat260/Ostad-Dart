@@ -1,11 +1,13 @@
+//do while loop = initialize>>increment>>content
+
 main(){
 
   print("\nIndex:");
-  int i = 1;
+  int i = 1;//initailize
   do{
     print("My index is: $i");
-    i++;
-  }while(i<=10);
+    i++;//increment
+  }while(i<=10);//condition
 
   print("\nMultiplication_table:");
   int j = 1;
