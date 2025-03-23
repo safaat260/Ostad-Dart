@@ -17,4 +17,12 @@
 //     print("this human is sleeping");
 //   }
 //
+//   //for static method needs a static variable
+//
+//   static String ? NAME;//static variable
+//
+//   static eating(){//to use static method we need static variable
+//     print("$NAME is eating");
+//   }
+//
 // }

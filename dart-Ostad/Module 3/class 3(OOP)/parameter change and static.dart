@@ -17,6 +17,14 @@
     print("this human is sleeping");
   }
 
+   //for static method needs a static variable
+
+  static String ? NAME;//static
+
+  static eating(){//to use static method we need static variable
+    print("$NAME is eating");
+  }
+
 }*/
 
 import 'all classes for import/all class for import.dart';
@@ -53,4 +61,13 @@ main() {
 
   human.walking(); // Calling static method
   human.sleep(); // Calling static method
+
+  print("\nStatic variable and method part:");
+
+  /*for static variable and static method,
+  we need to call it by using main class.(dot)variable not by under any object*/
+  human.NAME = "jony";//main class and static object
+  print("${human.NAME}");
+  print("${human.NAME}'s country is: ${human.country}"); // Access static variable
+  human.eating();//jony is showing due to static value
 }
