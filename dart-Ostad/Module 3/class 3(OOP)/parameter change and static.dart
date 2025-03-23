@@ -1,33 +1,58 @@
+/*class human{
+
+  String ? name;
+  late String skincolor; //assign late
+  int hands = 2;
+  int eye = 2;
+  int leg = 2;
+
+  //static is globally accessible doesnt need any object again and again
+  static String country = "Bangladesh";
+
+  static walking(){
+    print("this human is walking");
+  }
+
+  static sleep(){//static
+    print("this human is sleeping");
+  }
+
+}*/
+
 import 'all classes for import/all class for import.dart';
 import 'human.dart';
-main(){
-
+main() {
   print("normal fixed parameter");
 
-  human fahim = human();//object
-  print(fahim.name = "FAHIM");//fahim = declare name
-  print(fahim.skincolor = "brown");//brown for late variable assign
-  print("total eye: ${fahim.eye}");//eye = 2
-  print("total legs: ${fahim.leg}");//legs = 2
+  human fahim = human(); // Object initialization
+  fahim.name = "FAHIM"; // Assigning name
+  fahim.skincolor = "brown"; // Assigning skin color
+  print(fahim.name); // Print name
+  print(fahim.skincolor); // Print skin color
+  print("total eyes: ${fahim.eye}"); // Eyes (default 2)
+  print("total legs: ${fahim.leg}"); // Legs (default 2)
 
-  //to use something in static use = object .(dot) something
-  print("${fahim.name}'s country is: ${human.country}");//static variable
+  // Static variable access
+  print("${fahim.name}'s country is: ${human.country}"); // Access static variable
 
-  // print("${fahim.name} is: ${human.sleep()}");
+  // Method calls
+  human.sleep(); // Calling static method
+  human.walking(); // Calling static method
 
   print("\nchanging parameter");
 
   human karim = human();
-  print(karim.name = "KARIM");//fahim = declare name
-  print(karim.skincolor = "black");//brown for late variable assign
-  karim.leg = 1;
+  karim.name = "KARIM"; // Assigning name
+  karim.skincolor = "black"; // Assigning skin color
+  karim.leg = 1; // Assigning legs
   print("total legs: ${karim.leg}");
-  karim.hands = 1;
+  karim.hands = 1; // Assigning hands
   print("total hands: ${karim.hands}");
-  karim.eye  = 0;
+  karim.eye = 0; // Assigning eyes
   print("total eyes: ${karim.eye}");
 
-  print("${karim.name}'s country is: ${human.country}");//static variable
+  print("${karim.name}'s country is: ${human.country}"); // Static variable access
 
-
+  human.walking(); // Calling static method
+  human.sleep(); // Calling static method
 }
