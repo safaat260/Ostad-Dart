@@ -4,13 +4,13 @@ class Human{
     2.when we use it in object it automatically calls the method of class
     3.many method can be used in main method
    */
-  String name = "Fahim";
-  int ? age;
+   String name = "fahim";
+   int ? age;
 
   Human(){
     print("main method is called");
-    method1(name);//value pass inside method
-    method2(22);//stored value inside method
+    method1(name);//value pass declaring it before
+    method2(22);//stored value inside method directly
   }
 
   //datatype & variable to store something in method
