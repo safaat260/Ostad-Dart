@@ -32,7 +32,7 @@ main() {
   print("total eyes: ${fahim.eye}"); // Eyes (default 2)
   print("total legs: ${fahim.leg}"); // Legs (default 2)
 
-  // Static variable access
+  // Static variable should be called with main class not object!!
   print("${fahim.name}'s country is: ${human.country}"); // Access static variable
 
   // Method calls
@@ -46,10 +46,8 @@ main() {
   karim.skincolor = "black"; // Assigning skin color
   karim.leg = 1; // Assigning legs
   print("total legs: ${karim.leg}");
-  karim.hands = 1; // Assigning hands
-  print("total hands: ${karim.hands}");
-  karim.eye = 0; // Assigning eyes
-  print("total eyes: ${karim.eye}");
+  print("total hands: ${karim.hands = 1}");// Assigning hands
+  print("total eyes: ${karim.eye = 0}");// Assigning eyes
 
   print("${karim.name}'s country is: ${human.country}"); // Static variable access
 

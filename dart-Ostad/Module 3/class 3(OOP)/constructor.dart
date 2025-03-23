@@ -28,6 +28,10 @@
 import 'Car.dart';
 import 'all classes for import/all class for import.dart';
 main(){
+
+  /*constructor should be same name as class where the parameter must be assigned for access
+  Car(this.brand, this.model, this.year);//constructor is while making new object*/
+
   Car gari = Car("BMW", "Dubai-XSG2", 2025);//constructor used while making new object
 
   print("[Parameter part]");
@@ -40,8 +44,8 @@ main(){
 
   print("\n[method part]");
 
-  gari.moving();//normal method called
-  gari.stockout();//static method called
+  gari.moving();//datatype less method called
+  gari.stockout();//with datatype method called
 
   //[[[[Static method should be called by main class name]]]]]
   Car.maintenance();//static method
