@@ -1,19 +1,21 @@
 /*class Restaurant{
   String name;
   String location;
+
+
   int _id = 1200;//private (_variable)
   double _income = 500.122;
   String _document = "private papers is now public for getter method";
+  int ? _workers;//null for set & get
 
-
-  Restaurant(this.name, this.location){//constructor
+  //constructor
+  Restaurant(this.name, this.location){
     print("Restaurant constructor $name & $location is called");
   }
 
   /*user will order but he can see public things (item order and served)
   not the private(_shopping,_cooking) things. But the private things will
-  happen inside order but user cannot see or modify it!!
-   */
+  happen inside order but user cannot see or modify it!! */
 
   //will store a variable inside item
   order(String item){//user can see and modify it
@@ -45,9 +47,8 @@
 
   String get docs => _document;//getter method
 
-  /*setter method is for set new value needs total 3 variable
-  to see it we need to use getter method
-   */
+  /*1.setter method is for set new value needs total 3 variable
+    2.to see it we need to use getter method */
   set newID(int value){//ID is for set then to print it have to call with getter variable
     _id = value;
   }
@@ -61,7 +62,18 @@
   set newincome(double inc){
     _income=inc;
   }
-}*/
+
+  //set + get varibale must be different
+  set resturantWorkers(int x){
+    _workers = x;
+  }
+
+  get resuworkers => _workers;
+
+}
+
+ */
+
 
 import '../all classes to import/Restaurant.dart';
 import'Restaurant.dart';
@@ -74,7 +86,7 @@ main(){
   print("\n[getter method part]");
   print("private id is now public: ${kfc.publicId}");//getter method
   kfc.getincome;//getter method with return print
-  //print(kfc.docs);
+  print(kfc.docs);
 
   //setter method part
   print("\n[setter method part]");
@@ -84,7 +96,9 @@ main(){
   print(kfc.docs);
   print("new income updated: ${kfc.newincome = 20000.2025}");
 
-
+  //set+get
+  kfc.resturantWorkers = 100;
+  print("total workers are: ${kfc.resuworkers}");
 
 
 }
