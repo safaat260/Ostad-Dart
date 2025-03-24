@@ -48,9 +48,17 @@ class Restaurant{
   /*setter method is for set new value needs total 3 variable
   to see it we need to use getter method
    */
-  set ID(int value){//ID is for set then to print it have to call with getter variable
+  set newID(int value){//ID is for set then to print it have to call with getter variable
     _id = value;
   }
 
 
+  set newdocu(String dcox){
+    _document = dcox;
+  }
+
+
+  set newincome(double inc){
+    _income=inc;
+  }
 }
