@@ -27,7 +27,7 @@ class Restaurant{
   _shopping(String item){//chef can see and modify it
     print("$item is gone for shopping");
   }
-  
+
   _cooking(String item){//chef can see and modify it
     print("$item is cooking now.\n>showing this for putting it in different method<");
   }
