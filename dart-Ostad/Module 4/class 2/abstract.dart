@@ -3,7 +3,6 @@ object by the name of main class
 2.if we want to use it we need to extend it from parent class then we can use the class properties
 3.if we use abstract we must >>override/just declare<< the all the methods!!
 */
-
 abstract class Animal{
   int eye = 2;
   fly();//body less abstract methods
