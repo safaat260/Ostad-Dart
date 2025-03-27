@@ -1,9 +1,11 @@
 /*1.we use abstract when we dont want to give permission create an
-object by the name of main class
-2.if we want to use it we need to extend it from parent class then we can use the class properties
-3.if we use abstract we must >>override/just declare<< the all the methods!!
+    object by the name of main class
+  2.if we want to use it we need to extend it from parent class then we can use the class properties
+  3.if we use abstract we must >>override/just declare<< the all the methods!!
+  4.we need to use "late" for abstract variable if we want to override it(used for implements mostly)
 */
 abstract class Animal{
+  late String name;
   int eye = 2;
   fly();//body less abstract methods
 }
