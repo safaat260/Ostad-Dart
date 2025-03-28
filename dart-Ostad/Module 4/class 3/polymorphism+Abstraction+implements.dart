@@ -36,8 +36,8 @@ class Elephant extends Animal{
 
 main(){
   //polymorphism
-  Animal lion = Lion("Simba");
-  Animal elep = Elephant("Titan");
+  Animal lion = Lion("Simba");//upcasting
+  Animal elep = Elephant("Titan");//upcasting
 
   print("Lion name is ${lion.name}");
   print("Elephant name is ${elep.name}");
