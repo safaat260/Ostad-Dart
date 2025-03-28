@@ -45,4 +45,13 @@ main(){
   lion.makeSound();
   elep.makeSound();
 
+  print("Lion class name is: ${lion.runtimeType}");//checks child class name
+  print("Elephant class name is: ${elep.runtimeType}");
+
+  print(lion is Lion);//checks current class is true/false
+  print(lion is Elephant);
+  print(lion is Animal);
+
+  //print()
+
 }

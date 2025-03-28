@@ -36,6 +36,12 @@ main(){
   //parent class+child class
   Game gtav = RPG("GTAV");//upcasting
   print("Game name is ${(gtav as RPG).name}");//down casting
+  
+  print("class name is ${gtav.runtimeType}");//gives child class name
+
+  print("Is gtav RPG? ${gtav is RPG}");//checks if the class is ture or false
+  print("Is gtav a game? ${gtav is Game}");//checks if the class is ture or false
+  //print(gtav is race); will give false if race child class existed
 
 
 }
