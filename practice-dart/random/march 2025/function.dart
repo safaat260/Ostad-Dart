@@ -1,8 +1,3 @@
-//normal
-import 'dart:io';
-
-import '../../dart-Ostad/Module 3/class 2/lamda(arrow function).dart';
-
 double triangle(double length, double width){
   double area = length*width;
   return area;
