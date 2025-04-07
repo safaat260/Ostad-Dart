@@ -91,7 +91,7 @@ main(){
 
   //setter method part
   print("\n[setter method part]");
-  kfc.newID = 2025;//value set with diffrent variable
+  kfc.newID = 2025;//value set with different variable
   print(kfc.publicId);
   kfc.newdocu = "public document is set by setter method";//setter method
   print(kfc.docs);
