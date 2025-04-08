@@ -1,3 +1,4 @@
+//map inside list
 main() {
   List<Map<String, dynamic>> students = [
     {"name": "Alice", "scores": [85, 90, 78]},
