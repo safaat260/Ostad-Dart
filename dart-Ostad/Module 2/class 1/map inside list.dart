@@ -6,5 +6,5 @@ main() {
     {"name": "Charlie", "scores": [90, 92, 85]},
   ];
 
- print(students);
+ print(students);//printed the list
 }
