@@ -2,6 +2,7 @@ main(){
   final int  num1;
   //num1 = 22;
 
+
   const int num2=30;
   //num2 = 22;
 
