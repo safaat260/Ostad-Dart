@@ -3,7 +3,6 @@ double triangle(double length, double width){
   return area;
 }
 
-
 //lamda (arrow function with required)
 dynamic triangle2 = ({required int length, required int width}) => (length*width);
 
