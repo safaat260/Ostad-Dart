@@ -15,6 +15,7 @@ main(){
   name.removeAll({"alamin", "utsho"});
   print(name);
 
+  
   print(name.contains("Omi"));
   print(name.containsAll({"Fahim","sudipto"}));
 
