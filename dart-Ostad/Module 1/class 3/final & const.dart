@@ -6,6 +6,7 @@ main(){
   const int number2= 30;//value must be assigned
   //number2=40; not allowed
 
+  
   print(number1);
   print(number2);
 
