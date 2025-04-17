@@ -15,7 +15,6 @@
 
  */
 
-
 import 'dart:io';
 //future= method <bool datatype>
 Future<bool> UserAbleToVote(int age) async{//async must for future
@@ -31,11 +30,10 @@ Future<bool> UserAbleToVote(int age) async{//async must for future
 }
 
 main(){
-
   print("Enter Age: ");
   int age = int.parse(stdin.readLineSync()!);
 
-  UserAbleToVote(age).then((value)
+  UserAbleToVote(age).then((value)//function called
   {
     if(value){//first condition (value = ture) value stored here
       print("Able to vote");
