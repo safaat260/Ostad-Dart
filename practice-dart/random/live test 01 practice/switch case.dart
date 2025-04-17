@@ -19,6 +19,7 @@ main(){
       print("varsity + coding");
 
 
+      
     default:
       print("enter a valid day");
 
