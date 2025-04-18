@@ -4,7 +4,7 @@
   example: we need to pass high school then we can go to college,
   we cannot go to college after primary school.
 
-  here we will use future  function<datatype>, dot(.)then((value){}), etc
+  here we will use future  function<any datatype>, dot(.)then((value){}), etc
 
   1).future means we will get the desire thing in future like data/api it has a datatype in it
   for that we need to use async
