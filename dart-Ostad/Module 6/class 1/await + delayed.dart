@@ -5,7 +5,6 @@
 Future<void> test() async{
  await Future.delayed(Duration(seconds: 3), (){//delayed and Duration
     print("Loading...Loading....");
-
   }
 );
   print("3 Seconds waiting Done!");
